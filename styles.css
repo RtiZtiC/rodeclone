@@ -1,0 +1,127 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin: 0;
+}
+nav{
+    border-bottom: 1px solid gray;
+}
+.midi{
+    height: 680px;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+}
+.nav-total{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.box-img{
+    top:200px;
+    left:750px;
+}
+.box-img2{
+    top:200px;
+    left:150px;
+}
+.hd-txt{
+    color: #ad9970;
+}
+.midibuttons{
+    margin-top: 50px;
+    gap:20px;
+}
+.b-now{
+    background-color: #ad9970;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin-top: 7px;
+
+}
+.banner{
+    width:1200px;
+    height: 300px;
+}
+#banner-total{
+    padding-top: 30px;;
+}
+.bannerhead{
+    font-size: 6rem;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top:80px;
+    text-align: center;
+}
+.cardbox{
+    width:100%;
+    height: 508px;
+}
+.textbox{
+    display: flex;
+    gap:80px;
+
+}
+.blogtext{
+    color: #ad9970;
+}
+.card-section{
+    background-color: rgb(252, 247, 247);
+}
+.blogbtn{
+    background-color: #ad9970;
+    border-radius: 200px;
+}
+.blok{
+    width:530px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.blogbtn:hover{
+    border: 1px solid #ad9970;
+    color: #ad9970;
+}
+.cds{
+    position: relative;
+    bottom:50px;
+}
+.link-sec{
+    padding: 3% 7%;
+    padding-top: 6%;
+}
+.rodefoot{
+    position: relative;
+    bottom: 50px;
+}
+.footlist{
+    position: relative;
+    right: 150px;
+}
+.bigbox{
+
+    width:350px;
+    position: relative;
+    right:200px;
+}
+.txtend{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    gap:30px;
+    top:20px;
+    color:#ad9970;
+}
+.line{
+    width:60%;
+    height: 2px;
+    display: flex;
+    justify-self: center;
+    background-color:gainsboro;
+}
+
+@media screen and (max-width:976px) {
+    
+}
