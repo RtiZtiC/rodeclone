@@ -95,23 +95,21 @@ nav{
     bottom: 50px;
 }
 .footlist{
-    position: relative;
-    right: 150px;
+    /* position: relative;
+    right: 150px; */
 }
 .bigbox{
-
     width:350px;
-    position: relative;
-    right:200px;
+    align-items: center;
 }
-.txtend{
+/* .txtend{
     display: flex;
     justify-content: space-around;
-}
+} */
 .icons{
     display: flex;
     gap:30px;
-    top:20px;
+    /* top:20px; */
     color:#ad9970;
 }
 .line{
@@ -123,5 +121,29 @@ nav{
 }
 
 @media screen and (max-width:976px) {
-    
+    .box-img{
+        left:00px;
+        margin: auto;
+    }
+    .box-img2{
+        left:00px;
+        margin: auto;
+    }
+    .bannerhead{
+        font-size: 2rem;
+    }
+    .banner{
+        width:400px;
+        height: 200px;;
+    }
+    .footlist{
+        visibility: hidden;
+        display: none;
+    }
+    .bigbox{
+        width:300px;
+    }
+    .mainfoot{
+        grid-template-columns: 100%;
+    }
 }
